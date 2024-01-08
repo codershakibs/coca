@@ -1,0 +1,89 @@
+@media (max-width: 575px) {
+    ...
+}
+
+
+@media (max-width: 767px) {
+    ...
+}
+
+
+@media (max-width: 991px) {
+    h1{
+        font-size: 25px;
+    }
+    .portfolio-top h2{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+     h4{
+        font-size: 25px;
+     }
+
+    .Webdesign {
+        font-size: 35px;
+    }
+
+    .banner-plus {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+    }
+
+    .banner-quall {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+    }
+
+    .banner-left-bottom {
+        padding: 14px;
+    }
+
+    .banner-minus {
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+    }
+
+    .banner-wrapper,
+    .Dienstleistungen-wrapper,
+    .portfolio-wrapper,
+    .Referenzen-wrapper,.wieso{
+        padding: 100px 0;
+    }
+
+    .portfolio-1{
+        padding: 35px 0 35px 0;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .cards-p1 {
+        font-size: 23px;
+    }
+
+    .wiso-p-1{
+        font-size: 70px;
+        line-height: 50px;
+    }
+
+}
+
+
+@media (max-width: 1399px) {
+    ...
+}
