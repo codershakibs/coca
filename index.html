@@ -37,6 +37,11 @@
     <!-- Website title -->
     <title>Coca</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="assets/scss/style.css">
     <!-- jQuery (necessary for jQuery plugins) -->
@@ -61,20 +66,20 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav gap-4">
-                        <li class="nav-item fs-18 fw-500">
-                            <a class="nav-link nav-link-ltr text-clr-Neutral" aria-current="page" href="#">Home</a>
+                        <li class="nav-item f-18 fw-500">
+                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item fs-18 fw-500">
-                            <a class="nav-link nav-link-ltr text-clr-Neutral" aria-current="page" href="#">About</a>
+                        <li class="nav-item f-18 fw-500">
+                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">About</a>
                         </li>
-                        <li class="nav-item fs-18 fw-500">
-                            <a class="nav-link nav-link-ltr text-clr-Neutral" aria-current="page" href="#">Blog</a>
+                        <li class="nav-item f-18 fw-500">
+                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Blog</a>
                         </li>
-                        <li class="nav-item fs-18 fw-500">
-                            <a class="nav-link nav-link-ltr text-clr-Neutral" aria-current="page" href="#">Pricing</a>
+                        <li class="nav-item f-18 fw-500">
+                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Pricing</a>
                         </li>
                     </ul>
-                    <div class="nav-btn fs-18 fw-500 d-inline-flex">
+                    <div class="nav-btn f-18 fw-500 d-inline-flex">
                         <a class="heading-text-clr" href="">Contact Us</a>
                     </div>
                 </div>
@@ -85,12 +90,13 @@
     <!-- banner -->
     <section class="banner banner-bg">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center banner-img">
                 <div class="col-lg-6">
                     <div class="banner-left">
-                        <h1 class="fs-80 fw-700 text-clr-Neutral">Digitally forward creative</h1>
+                        <h1 class="f-80 fw-700 text-clr-Neutral">Digitally forward creative</h1>
                         <div class="banner-right-sub position-relative">
-                            <h3>When it comes to interactive marketing, we've got you covered.
+                            <h3 class="heading-text-clr f-32 fw-600">When it comes to interactive marketing, we've got
+                                you covered.
                                 Be where the world is going</h3>
                         </div>
                         <div class="banner-newsletter d-flex">
@@ -99,7 +105,7 @@
                                     id="email">
                             </div>
                             <div class="">
-                                <a class="try-free text-white fs-16 fw-700 radius-100" href="">Try For Free</a>
+                                <a class="try-free text-white f-16 fw-700 radius-100" href="">Try For Free</a>
                             </div>
                         </div>
                     </div>
@@ -114,19 +120,569 @@
     </section>
     <!-- banner end  -->
     <!-- client-solve  -->
-    <section>
-        <div class="">
-            <h1>sfdsdfsdf</h1>
+    <section class="client bg-clr">
+        <div class="container">
+            <div>
+                <h2 class="client-head text-white f-56 fw-600">Coca help our client solve complex customer problems with
+                    date that does
+                    more.</h2>
+                <p class="client-sub f-18 fw-500 p-text-clr">Our platform offers the modern enterprise full control of
+                    how date can be access and used with
+                    industry
+                    leading software solutions for identity, activation, and date collaboration</p>
+            </div>
+            <div class="row gy-5 mt-4">
+                <div class="col-lg-6">
+                    <div class="d-flex gap-2 flex-column">
+                        <div>
+                            <img src="assets/img/client-icon-1.svg" alt="">
+                        </div>
+                        <h4 class="client-card-head text-white f-32 fw-600">Build your date fundamental</h4>
+                        <p class="client-card-text p-text-clr f-16 fw-500">Build access to date, develop valuable
+                            business insights and
+                            drive revenue while maintaining full
+                            control over access and use of date at all times.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex gap-2 flex-column">
+                        <div>
+                            <img src="assets/img/client-icon-2.svg" alt="">
+                        </div>
+                        <h4 class="client-card-head text-white f-32 fw-600">Measure more effective</h4>
+                        <p class="client-card-text p-text-clr f-16 fw-500">Effectively measure people-based campaigns
+                            with the freedom to choose from best-of breed partners to optimize and drive media
+                            innovation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex gap-2 flex-column">
+                        <div>
+                            <img src="assets/img/client-icon-3.svg" alt="">
+                        </div>
+                        <h4 class="client-card-head text-white f-32 fw-600">Activate your date</h4>
+                        <p class="client-card-text p-text-clr f-16 fw-500">Accurately address your specific audiences at
+                            scale across any channel, platform, publisher or network and safely translate date between
+                            identity space to improve results.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex gap-2 flex-column">
+                        <div>
+                            <img src="assets/img/client-icon-4.svg" alt="">
+                        </div>
+                        <h4 class="client-card-head text-white f-32 fw-600">Strengthen consumer privacy</h4>
+                        <p class="client-card-text p-text-clr f-16 fw-500">Protect your customer date with leading
+                            privacy-preserving technologies and advanced techniques to minimize date movement while
+                            still enabling insight generation.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- client-end  -->
 
+    <!-- passion -->
+    <section class="passion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img class="" src="assets/img/passion-right-img.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="passion-head f-56 fw-600 heading-text-clr mb-5">Passion to increase company revenue up to
+                        85%</h2>
+                    <p class="passion-sub p-text-clr f-18 fw-500 mb-5">Automate your sales, marketing and service in one
+                        platform.
+                        Avoid
+                        date leaks and enable
+                        consistent
+                        messaging</p>
+                    <div class="d-flex flex-column gap-5">
+                        <div class="d-flex gap-2 align-item-center">
+                            <img src="assets/img/passion-icon.svg" alt="">
+                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Close more deals with single - page
+                                contact managment</p>
+                        </div>
+                        <div class="d-flex gap-2 align-item-center">
+                            <img src="assets/img/passion-icon.svg" alt="">
+                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Enjoy one-click calling, call
+                                scripts and voicemail automation</p>
+                        </div>
+                        <div class="d-flex gap-2 align-item-center">
+                            <img src="assets/img/passion-icon.svg" alt="">
+                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Take stages and milestones of your
+                                deals to keep the sales process an track</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="counters">
+                        <h2 class="f-64 fw-600 heading-text-clr">17k</h2>
+                        <p class="counter-text p-text-clr fw-500 f-18 pt-2">happy customers on worldwide</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="counters">
+                        <h2 class="f-64 fw-600 heading-text-clr">15+ </h2>
+                        <p class="counter-text p-text-clr fw-500 f-18 pt-2">Hours of work experience</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="counters">
+                        <h2 class="f-64 fw-600 heading-text-clr">50+</h2>
+                        <p class="counter-text p-text-clr fw-500 f-18 pt-2">Creativity & passionate members</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="counters">
+                        <h2 class="f-64 fw-600 heading-text-clr">100+ </h2>
+                        <p class="counter-text p-text-clr fw-500 f-18 pt-2">Integrations lorem ipsum integrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature -->
+    <section class="feature">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-12">
+                    <div>
+                        <img class="w-100" src="assets/img/feature-img.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="heading-text-clr f-56 fw-600">Lift your business to new heights with our digital
+                        marketing
+                        services</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="feature-sub p-text-clr">To build software that gives customer facing teams in small and
+                        medium-sized
+                        businesses the ability to create rewarding and long-lasting relationships with customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brands  -->
+    <section class="brands">
+        <div class="container">
+            <div class="brand">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div>
+                            <h5 class="heading-text-clr f-56 fw-600">890+</h5>
+                            <p class="brands-sub p-text-clr f-18 fw-500 mt-3">some big companies that we work with, and
+                                trust us very much
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-4.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-5.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-6.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-7.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="assets/img/brands-8.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- advertise  -->
+    <section class="advertise">
+        <div class="container">
+            <div>
+                <h2 class="advertise-head heading-text-clr f-56 fw-600">Advertise, analyze, and optimize! We do it all
+                    for you</h2>
+                <p class="advertise-sub p-text-clr f-18 fw-500 mt-3">Build more meaningful and lasting relationships -
+                    better
+                    understand their needs, identify new
+                    opportunities to help address any problems faster</p>
+            </div>
+            <div class="row mt-5 gy-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-5">
+                        <div class="shrink">
+                            <img class="" src="assets/img/ad-img-1.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
+                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
+                                relationships - better
+                                understand their needs, identify new opportunities to help address any problems faster
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-5">
+                        <div class="shrink">
+                            <img class="" src="assets/img/ad-img-2.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
+                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
+                                relationships - better
+                                understand their needs, identify new opportunities to help address any problems faster
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-5">
+                        <div class="shrink">
+                            <img class="" src="assets/img/ad-img-3.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
+                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
+                                relationships - better
+                                understand their needs, identify new opportunities to help address any problems faster
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-5">
+                        <div class="shrink">
+                            <img class="" src="assets/img/ad-img-4.svg" alt="">
+                        </div>
+                        <div>
+                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
+                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
+                                relationships - better
+                                understand their needs, identify new opportunities to help address any problems faster
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+
+    </section>
+    <!-- trending-news  -->
+    <section class="trending-news">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading-text-clr f-56 fw-600">Trending news from Coca</h2>
+                <p class="p-text-clr f-18 fw-500 mt-5">we have some new Service to pamper you</p>
+            </div>
+            <div class="row">
+                <div class="splide mt-5" aria-label="Basic Structure Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="cards">
+                                    <div>
+                                        <img class="w-100" src="assets/img/news-alide-img-1.svg" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
+                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
+                                    </div>
+                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
+                                        profile,
+                                        and why
+                                        does it matter ?</h4>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="cards">
+                                    <div>
+                                        <img class="w-100" src="assets/img/news-alide-img-2.svg" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
+                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
+                                    </div>
+                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">How to build a Kaylen relationship
+                                        with a good company</h4>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="cards">
+                                    <div>
+                                        <img class="w-100" src="assets/img/news-alide-img-1.svg" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
+                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
+                                    </div>
+                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
+                                        profile,
+                                        and why
+                                        does it matter ?</h4>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="cards">
+                                    <div>
+                                        <img class="w-100" src="assets/img/news-alide-img-2.svg" alt="">
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
+                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
+                                    </div>
+                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
+                                        profile,
+                                        and why
+                                        does it matter ?</h4>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- review  -->
+    <section class="review">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="review-head heading-text-clr f-56 fw-600">What our customer are saying</h2>
+                <p class="review-sub p-text-clr f-18 fw-500">We are trusted numerous companies from different business
+                    to meet
+                    their needs</p>
+            </div>
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="review-slider d-flex flex-column gap-4">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
+                                    very
+                                    satisfying. wrapped
+                                    with Hight quality and innovative
+                                    design that makes a surge of visitors on my website”</h3>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div>
+                                        <img src="assets/img/review-man.svg" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h5>Renee Wells</h5>
+                                        <p>Product Designer, Quotient</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-slider d-flex flex-column gap-4">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <img src="assets/img/review-star.svg" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
+                                    very
+                                    satisfying. wrapped
+                                    with Hight quality and innovative
+                                    design that makes a surge of visitors on my website”</h3>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div>
+                                        <img src="assets/img/review-man.svg" alt="">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h5>Renee Wells</h5>
+                                        <p>Product Designer, Quotient</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-lg-12">
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- think  -->
+    <section class="main-think">
+        <div class="container">
+            <div class="think d-flex align-items-center justify-content-between">
+                <div class="think-left">
+                    <h2 class="heading-text-clr f-64 fw-600">Think beyond the wave</h2>
+                    <p class="think-sub heading-text-clr f-24 fw-600">Ask about Sans products, pricing, implementation,
+                        or anything
+                        else. Our highly trained reps are
+                        standing by, ready to help</p>
+                </div>
+                <div>
+                    <a class="think-btn text-white f-16 fw-700" href="">Try For free</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div>
+                        <div>
+                            <img src="assets/img/footer-logo.svg" alt="">
+                        </div>
+                        <p class="footer-heading heading-text-clr f-16 fw-500 ">We built an elegant solution. Our team
+                            created a fully integrated
+                            sales and marketing
+                            solution for SMBs</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-items">
+                        <h4>Company</h4>
+                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-items">
+                        <h4>Product</h4>
+                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
+                            <li><a href="">Sales Software</a></li>
+                            <li><a href="">Marketplace</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-items">
+                        <h4>Discover</h4>
+                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
+                            <li><a href="">CRM Comparision</a></li>
+                            <li><a href="">Partner Program</a></li>
+                            <li><a href="">What is CRM</a></li>
+                            <li><a href="">Resource</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-items">
+                        <h4>Help Center</h4>
+                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Knowledge Base</a></li>
+                            <li><a href="">Academy</a></li>
+                            <li><a href="">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Main Coding End -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- Script JS -->
     <script src="assets/js/script.js"></script>
 

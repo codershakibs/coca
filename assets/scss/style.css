@@ -18,6 +18,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fff;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -43,7 +44,12 @@ a {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
+}
+@media (max-width: 575px) {
+  section {
+    padding: 50px 0;
+  }
 }
 
 img {
@@ -64,44 +70,66 @@ img {
   background-color: #1D1E25;
 }
 
-.fs-14 {
+.f-14 {
   font-size: 14px;
   line-height: 21px;
 }
 
-.fs-16 {
+.f-16 {
   font-size: 16px;
   line-height: 26px;
 }
+@media (max-width: 575px) {
+  .f-16 {
+    font-size: 12px;
+  }
+}
 
-.fs-18 {
+.f-18 {
   font-size: 18px;
   line-height: 27px;
 }
 
-.fs-24 {
+.f-24 {
   font-size: 24px;
   line-height: 34px;
 }
 
-.fs-40 {
+.f-40 {
   font-size: 40px;
   line-height: 52px;
 }
 
-.fs-80 {
+.f-80 {
   font-size: 80px;
   line-height: 96px;
 }
+@media (max-width: 575px) {
+  .f-80 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
 
-.fs-32 {
+.f-32 {
   font-size: 32px;
   line-height: 42px;
 }
+@media (max-width: 575px) {
+  .f-32 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 
-.fs-56 {
+.f-56 {
   font-size: 56px;
-  line-height: 67;
+  line-height: 67px;
+}
+
+.f-64 {
+  font-size: 64px;
+  line-height: 75px;
 }
 
 .fw-400 {
@@ -167,6 +195,16 @@ nav .nav-btn {
 .banner {
   padding: 150px 0;
 }
+@media (max-width: 575px) {
+  .banner {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 575px) {
+  .banner .banner-img {
+    gap: 100px;
+  }
+}
 .banner .banner-newsletter {
   border: 0;
   margin-top: 80px;
@@ -175,11 +213,21 @@ nav .nav-btn {
   padding: 16px 32px;
   background: #1D1E25;
 }
+@media (max-width: 575px) {
+  .banner .banner-newsletter .try-free {
+    padding: 9px 14px;
+  }
+}
 .banner .banner-newsletter input {
   background-color: transparent;
   border: 0 0 5px 0;
   padding-right: 200px;
   padding-bottom: 14px;
+}
+@media (max-width: 575px) {
+  .banner .banner-newsletter input {
+    padding-right: 0;
+  }
 }
 .banner .banner-newsletter input:focus {
   outline: none;
@@ -196,4 +244,172 @@ nav .nav-btn {
   padding-left: 100px;
   margin-top: 114px;
   max-width: 514px;
+}
+@media (max-width: 575px) {
+  .banner .banner-right-sub h3 {
+    margin-top: 50px;
+  }
+}
+
+.client .client-head {
+  max-width: 816px;
+}
+.client .client-sub {
+  max-width: 660px;
+  padding-top: 24px;
+}
+.client .client-card-head {
+  max-width: 250px;
+}
+.client .client-card-text {
+  max-width: 440px;
+}
+
+.passion .passion-head {
+  max-width: 550px;
+}
+.passion .passion-sub {
+  max-width: 360px;
+}
+.passion .passion-sub-head {
+  max-width: 350px;
+}
+
+.counters {
+  position: relative;
+}
+.counters::after {
+  position: absolute;
+  content: "";
+  height: 95px;
+  width: 1px;
+  background-color: #CED1D8;
+  top: 0;
+  right: 72px;
+}
+.counters .counter-text {
+  max-width: 176px;
+}
+
+.feature .feature-sub {
+  max-width: 416px;
+}
+
+.brands .brand {
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.brands .brands-sub {
+  max-width: 323px;
+}
+
+.advertise .shrink img {
+  transition: 1s ease;
+}
+.advertise .shrink img:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.advertise .advertise-head {
+  max-width: 600px;
+}
+.advertise .advertise-sub {
+  max-width: 462px;
+}
+.advertise .ad-head {
+  max-width: 250px;
+}
+.advertise .ad-sub {
+  max-width: 268px;
+}
+
+.trending-news .splide__arrow--prev {
+  left: 43em;
+}
+.trending-news .splide__arrow--next {
+  right: 43em;
+}
+.trending-news .splide__arrow {
+  background: rgb(0, 0, 0);
+  opacity: 100%;
+}
+.trending-news .splide__pagination {
+  display: none;
+}
+.trending-news .splide__arrow svg {
+  fill: #FFF;
+}
+
+.review .review-head {
+  max-width: 530px;
+}
+.review .review-sub {
+  max-width: 375px;
+}
+.review .review-slider {
+  position: relative;
+  padding-left: 150px;
+  margin-top: 150px;
+}
+.review .review-slider .alider-head {
+  max-width: 900px;
+}
+.review .review-slider::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/slider-elips.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: -100px;
+}
+
+.main-think {
+  background-image: url(../img/think-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  padding: 100px 0 300px 0 !important;
+}
+.main-think .think .think-right a {
+  padding: 16px 32px;
+  border-radius: 100px;
+  background: var(--Neutral-100, #1D1E25);
+}
+.main-think .think .think-btn {
+  padding: 16px 32px;
+  border-radius: 100px;
+  background: var(--Neutral-100, #1D1E25);
+}
+.main-think .think .think-sub {
+  max-width: 543px;
+  margin-top: 32px;
+  padding-left: 100px;
+  position: relative;
+}
+.main-think .think .think-sub::before {
+  position: absolute;
+  content: "";
+  width: 75px;
+  height: 1px;
+  background-color: black;
+  left: 0;
+  top: 20px;
+}
+
+.footer {
+  margin-top: -310px;
+}
+.footer .footer-heading {
+  max-width: 292px;
+}
+.footer .footer-links li a {
+  color: #1D1E25;
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
