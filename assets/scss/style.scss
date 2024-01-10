@@ -201,6 +201,14 @@ img {
     background: url(../img/Header.png);
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width:575px) {
+        background: url(../img/mobile-banner-bg.svg);
+        background-repeat: no-repeat;
+
+    }
+
+
 }
 
 /* helper , base classes  - END*/
@@ -507,6 +515,7 @@ nav {
     }
 }
 
+
 // review 
 .review {
     .review-head {
@@ -516,7 +525,8 @@ nav {
     .review-dev {
         align-items: start !important;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         padding-bottom: 40px;
     }
 

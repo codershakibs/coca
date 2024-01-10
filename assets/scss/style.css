@@ -196,6 +196,12 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 575px) {
+  .banner-bg {
+    background: url(../img/mobile-banner-bg.svg);
+    background-repeat: no-repeat;
+  }
+}
 
 /* helper , base classes  - END*/
 nav {
