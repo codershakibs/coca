@@ -30,6 +30,7 @@ a {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -368,4 +369,27 @@ section {
   filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.05));
   border: 1px solid gray;
   border-radius: 100px;
+}
+
+.footer .footer-links {
+  color: rgba(9, 11, 39, 0.5);
+}
+.footer .footer-item {
+  position: relative;
+}
+.footer .footer-item::after {
+  position: absolute;
+  content: "";
+  background-color: #6347FB;
+  left: 0px;
+  width: 0%;
+  height: 3px;
+  bottom: -5px;
+  transition: all 0.2s linear;
+}
+.footer .footer-item:hover {
+  color: #090B27;
+}
+.footer .footer-item:hover::after {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
