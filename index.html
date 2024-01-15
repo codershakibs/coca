@@ -35,13 +35,23 @@
     <!-- gmail verification -->
     <meta name="google-site-verification" content="">
     <!-- Website title -->
-    <title>Coca</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/nioicon.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+
+
+
+
+
+
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="assets/scss/style.css">
     <!-- jQuery (necessary for jQuery plugins) -->
@@ -52,9 +62,8 @@
     <!-- Main Coding Start Here -->
 
 
-
     <!-- header -->
-    <header>
+    <header class="">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -65,736 +74,688 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav gap-4">
-                        <li class="nav-item f-18 fw-500">
-                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Home</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item f-18 fw-500">
-                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
                         </li>
-                        <li class="nav-item f-18 fw-500">
-                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Blog</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
                         </li>
-                        <li class="nav-item f-18 fw-500">
-                            <a class="nav-link nav-link-ltr heading-text-clr" aria-current="page" href="#">Pricing</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedback</a>
                         </li>
                     </ul>
-                    <div class="nav-btn f-18 fw-500 d-inline-flex">
-                        <a class="heading-text-clr" href="">Contact Us</a>
+                    <div class="nav-btn radius-100 bg-white">
+                        <a class="text-light-blue fs-14 fw-500" href="">Download</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <!--/ header end-->
-    <!-- banner -->
-    <section class="banner banner-bg">
+    <!--/ header -->
+
+    <!-- banner  -->
+    <section class="banner position-relative">
         <div class="container">
-            <div class="row align-items-center banner-img">
-                <div class="col-lg-6">
-                    <div class="banner-left">
-                        <h1 class="f-80 fw-700 text-clr-Neutral joy-banla">Digitally forward creative</h1>
-                        <div class="banner-right-sub position-relative">
-                            <h3 class="heading-text-clr f-32 fw-600">When it comes to interactive marketing, we've got
-                                you covered.
-                                Be where the world is going</h3>
-                        </div>
-                        <div class="banner-newsletter d-flex">
-                            <div class="border-bottom">
-                                <input class="border-0" type="text" name="email" placeholder="Enter Your Email"
-                                    id="email">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="banner-left pt-5">
+                        <h1 class="fs-90 fw-300 text-rich-black pb-4">The shopping wingman</h1>
+                        <p class="fs-20 fw-300 text-Electric-Blue pb-5">Meet the unique chat bot that makes the shopping
+                            experience flawless. Just sit back, relax
+                            and let our chat bot focus on finding you the best offers.</p>
+                        <div class="banner-bottom d-flex align-items-center gap-5">
+                            <div class="banner-btn d-inline-block bg-light-blue radius-100">
+                                <a class="fs-16 fw-500 text-white" href="">Download Circular for Free</a>
                             </div>
-                            <div class="">
-                                <a class="try-free text-white f-16 fw-700 radius-100" href="">Try For Free</a>
+                            <div class="d-flex gap-2 align-items-center">
+                                <a href=""> <img src="assets/img/banner-demo-btn.svg" alt="">
+                                </a>
+                                <a class="fs-16 fw-500 text-light-Blue" href="">View Demo</a>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="mb-5 fs-16 fw-300 text-Electric-Blue">You’re in good company:</p>
+                            <div class="banner-brands d-flex align-items-center gap-5">
+                                <div>
+                                    <img src="assets/img/brands-1.svg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/brands-2.svg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/brands-3.svg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/img/brands-4.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="banner-right">
-                        <img class="img-fluid" src="assets/img/banner-right-img.svg" alt="">
+                        <img class="banner-img-right img-fluid" src="assets/img/banner-right-img.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- banner end  -->
-    <!-- client-solve  -->
-    <section class="client bg-clr">
+
+    <!-- counter  -->
+    <section class="count">
         <div class="container">
             <div>
-                <h2 class="client-head text-white f-56 fw-600">Coca help our client solve complex customer problems with
-                    date that does
-                    more.</h2>
-                <p class="client-sub f-18 fw-500 p-text-clr">Our platform offers the modern enterprise full control of
-                    how date can be access and used with
-                    industry
-                    leading software solutions for identity, activation, and date collaboration</p>
+                <p class="text-Electric-Blue fs-16 fw-300 text-center pb-5">Here’s how much we saved so far:</p>
             </div>
-            <div class="row gy-5 mt-4">
-                <div class="col-lg-6">
-                    <div class="d-flex gap-2 flex-column">
-                        <div>
-                            <img src="assets/img/client-icon-1.svg" alt="">
-                        </div>
-                        <h4 class="client-card-head text-white f-32 fw-600">Build your date fundamental</h4>
-                        <p class="client-card-text p-text-clr f-16 fw-500">Build access to date, develop valuable
-                            business insights and
-                            drive revenue while maintaining full
-                            control over access and use of date at all times.</p>
-                    </div>
+            <div class="counter d-flex align-item-center justify-content-center gap-3">
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">90</p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="d-flex gap-2 flex-column">
-                        <div>
-                            <img src="assets/img/client-icon-2.svg" alt="">
-                        </div>
-                        <h4 class="client-card-head text-white f-32 fw-600">Measure more effective</h4>
-                        <p class="client-card-text p-text-clr f-16 fw-500">Effectively measure people-based campaigns
-                            with the freedom to choose from best-of breed partners to optimize and drive media
-                            innovation.</p>
-                    </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">80</p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="d-flex gap-2 flex-column">
-                        <div>
-                            <img src="assets/img/client-icon-3.svg" alt="">
-                        </div>
-                        <h4 class="client-card-head text-white f-32 fw-600">Activate your date</h4>
-                        <p class="client-card-text p-text-clr f-16 fw-500">Accurately address your specific audiences at
-                            scale across any channel, platform, publisher or network and safely translate date between
-                            identity space to improve results.</p>
-                    </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">70</p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="d-flex gap-2 flex-column">
-                        <div>
-                            <img src="assets/img/client-icon-4.svg" alt="">
-                        </div>
-                        <h4 class="client-card-head text-white f-32 fw-600">Strengthen consumer privacy</h4>
-                        <p class="client-card-text p-text-clr f-16 fw-500">Protect your customer date with leading
-                            privacy-preserving technologies and advanced techniques to minimize date movement while
-                            still enabling insight generation.</p>
-                    </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">60</p>
+                </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">50</p>
+                </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">40</p>
+                </div>
+                <div class="counters radius-8">
+                    <p class="counter-body fs-30 fw-500 text-light-blue count-digit">30</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- client-end  -->
 
-    <!-- passion -->
-    <section class="passion">
+    <section class="good-deals">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center gx-5">
                 <div class="col-lg-6">
                     <div>
-                        <img class="" src="assets/img/passion-right-img.svg" alt="">
+                        <img src="assets/img/good-deals.svg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="passion-head f-56 fw-600 heading-text-clr mb-5">Passion to increase company revenue up to
-                        85%</h2>
-                    <p class="passion-sub p-text-clr f-18 fw-500 mb-5">Automate your sales, marketing and service in one
-                        platform.
-                        Avoid
-                        date leaks and enable
-                        consistent
-                        messaging</p>
-                    <div class="passion-items d-flex flex-column gap-5">
-                        <div class="d-flex gap-2 align-item-center">
-                            <img src="assets/img/passion-icon.svg" alt="">
-                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Close more deals with single - page
-                                contact managment</p>
-                        </div>
-                        <div class="d-flex gap-2 align-item-center">
-                            <img src="assets/img/passion-icon.svg" alt="">
-                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Enjoy one-click calling, call
-                                scripts and voicemail automation</p>
-                        </div>
-                        <div class="d-flex gap-2 align-item-center">
-                            <img src="assets/img/passion-icon.svg" alt="">
-                            <p class="passion-sub-head f-18 fw-500 heading-text-clr">Take stages and milestones of your
-                                deals to keep the sales process an track</p>
-                        </div>
-
+                    <div class="d-flex flex-column gap-4">
+                        <h3 class="middle-head text-rich-black fs-50 fw-300 custom-margin-top">Chasing good deals should
+                            not be your
+                            problem anymore
+                        </h3>
+                        <p class="fs-20 fw-300 text-Electric-Blue middle-head ">We have a unique engine that will help
+                            you find the
+                            best deals on those cool products that
+                            you were looking for. You just ask and our bots will help you in a matter of seconds.</p>
+                        <a class="text-light-blue fs-18 fw-500 middle-head" href="">Download Circular for Free</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="counter">
+    <section class="detailed">
         <div class="container">
-            <div class="d-none d-lg-block">
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <div class="counters">
-                            <h2 class="f-64 fw-600 heading-text-clr">17k</h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">happy customers on worldwide</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="counters">
-                            <h2 class="remove-element-1 f-64 fw-600 heading-text-clr">15+ </h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Hours of work experience</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="counters">
-                            <h2 class="f-64 fw-600 heading-text-clr">50+</h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Creativity & passionate members</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="counters">
-                            <h2 class="f-64 fw-600 heading-text-clr">100+ </h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Integrations lorem ipsum integrations
-                            </p>
-                        </div>
+            <div class="row align-items-center gx-5 flex-column-reverse flex-lg-row">
+
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-4">
+                        <h3 class="text-rich-black fs-50 fw-300 middle-head custom-margin-top">Detailed & powerful
+                            analytics data
+                        </h3>
+                        <p class="fs-20 fw-300 text-Electric-Blue middle-head">You will always have access to your
+                            metrics. That
+                            way, you will always know how much you have spend on products, what are the most popular
+                            stores, etc.</p>
+                        <a class="text-light-blue fs-18 fw-500 middle-head" href="">Download Circular for Free</a>
                     </div>
                 </div>
-            </div>
-            <div class="d-block d-lg-none">
-                <div class="row gy-5">
-                    <div class="col-6">
-                        <div class="counters-2">
-                            <h2 class="f-64 fw-600 heading-text-clr">17k</h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">happy customers on worldwide</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="">
-                            <h2 class="remove-element-1 f-64 fw-600 heading-text-clr">15+ </h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Hours of work experience</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="counters-2">
-                            <h2 class="f-64 fw-600 heading-text-clr">50+</h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Creativity & passionate members</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="">
-                            <h2 class="f-64 fw-600 heading-text-clr">100+ </h2>
-                            <p class="counter-text p-text-clr fw-500 f-18 pt-2">Integrations lorem ipsum integrations
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- feature -->
-    <section class="feature">
-        <div class="container">
-            <div class="row gy-5">
-                <div class="col-lg-12 feature-gap">
+                <div class="col-lg-6">
                     <div>
-                        <img class="w-100" src="assets/img/feature-img.svg" alt="">
+                        <img src="assets/img/detailed.svg" alt="">
                     </div>
-                </div>
-                <div class="col-lg-6 feature-gap">
-                    <h2 class="heading-text-clr f-56 fw-600">Lift your business to new heights with our digital
-                        marketing
-                        services</h2>
-                </div>
-                <div class="col-lg-6 feature-gap">
-                    <p class="feature-sub p-text-clr">To build software that gives customer facing teams in small and
-                        medium-sized
-                        businesses the ability to create rewarding and long-lasting relationships with customers</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- brands  -->
-    <section class="brands">
+    <section class="earn">
         <div class="container">
-            <div class="brand">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div>
-                            <h5 class="heading-text-clr f-56 fw-600">890+</h5>
-                            <p class="brands-sub p-text-clr f-18 fw-500 mt-3">some big companies that we work with, and
-                                trust us very much
-                            </p>
-                        </div>
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/img/earn.svg" alt="">
                     </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-2.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-3.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-4.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-5.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-6.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-7.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div>
-                                    <img src="assets/img/brands-8.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-4">
+                        <h3 class="text-rich-black fs-50 fw-300 middle-head custom-margin-top">Earn daily rewards with
+                            great discounts
+                        </h3>
+                        <p class="fs-20 fw-300 text-Electric-Blue middle-head">You will be able to find the best
+                            products and earn
+                            discounts for upcoming purchases. Keep browsing and purchasing the products you love and you
+                            will be rewarded for it.</p>
+                        <a class="text-light-blue fs-18 fw-500 middle-head" href="">Download Circular for Free</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- advertise  -->
-    <section class="advertise">
+
+    <!-- prices-->
+    <section class="prices">
         <div class="container">
             <div>
-                <h2 class="advertise-head heading-text-clr f-56 fw-600">Advertise, analyze, and optimize! We do it all
-                    for you</h2>
-                <p class="advertise-sub p-text-clr f-18 fw-500 mt-3">Build more meaningful and lasting relationships -
-                    better
-                    understand their needs, identify new
-                    opportunities to help address any problems faster</p>
+                <h3 class="fs-50 fw-300 text-rich-black text-center mb-5">Affordable Prices</h3>
             </div>
-            <div class="row mt-5 gy-5">
-                <div class="col-lg-6">
-                    <div class="ad-items d-flex align-items-center gap-5">
-                        <div class="shrink">
-                            <img class="" src="assets/img/ad-img-1.svg" alt="">
-                        </div>
-                        <div>
-                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
-                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
-                                relationships - better
-                                understand their needs, identify new opportunities to help address any problems faster
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" ad-items d-flex align-items-center gap-5">
-                        <div class="shrink">
-                            <img class="" src="assets/img/ad-img-2.svg" alt="">
-                        </div>
-                        <div>
-                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
-                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
-                                relationships - better
-                                understand their needs, identify new opportunities to help address any problems faster
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ad-items d-flex align-items-center gap-5">
-                        <div class="shrink">
-                            <img class="" src="assets/img/ad-img-3.svg" alt="">
-                        </div>
-                        <div>
-                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
-                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
-                                relationships - better
-                                understand their needs, identify new opportunities to help address any problems faster
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class=" ad-items d-flex align-items-center gap-5">
-                        <div class="shrink">
-                            <img class="" src="assets/img/ad-img-4.svg" alt="">
-                        </div>
-                        <div>
-                            <h4 class="ad-head heading-text-clr f-32 fw-600">Lead happiness for customers</h4>
-                            <p class="ad-sub p-text-clr f-16 fw-500 mt-5">Build more meaningful and lasting
-                                relationships - better
-                                understand their needs, identify new opportunities to help address any problems faster
-                            </p>
-                        </div>
+            <div class="package-toggler">
+                <div class="top">
+                    <div class="toggle-btn">
+                        <span style="margin: 0.8em;" class="fs-5 fw-bold text-clr-dark1">Monthly</span>
+                        <label class="switch">
+                            <input type="checkbox" id="checbox" onclick="check()" ; />
+                            <span class="slider round"></span>
+                        </label>
+                        <span style="margin: 0.8em;" class="fs-5 fw-bold text-clr-dark1">Yearly</span>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
-    </section>
-    <!-- trending-news  -->
-    <section class="trending-news">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="heading-text-clr f-56 fw-600">Trending news from Coca</h2>
-                <p class="news-sub p-text-clr f-18 fw-500 mt-5">we have some new Service to pamper you</p>
-            </div>
-            <div class="row">
-                <div class="splide mt-5" aria-label="Basic Structure Example">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="cards">
-                                    <div>
-                                        <img class="w-100" src="assets/img/news-alide-img-1.svg" alt="">
-                                    </div>
-                                    <div class="d-flex justify-content-between mt-2">
-                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
-                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
-                                    </div>
-                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
-                                        profile,
-                                        and why
-                                        does it matter ?</h4>
+            <section class="splide d-block d-lg-none" aria-label="Basic Structure Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="cards">
+                                <div class="card-top">
+                                    <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">individual</p>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$4.99/month*</h4>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$10.99/month*</h4>
+                                    <div class="card-devider"></div>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                                    <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block "
+                                        href="">Try
+                                        it for free - 14 days</a>
                                 </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="cards">
-                                    <div>
-                                        <img class="w-100" src="assets/img/news-alide-img-2.svg" alt="">
+                                <div class="d-flex flex-column gap-3 mt-5">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
                                     </div>
-                                    <div class="d-flex justify-content-between mt-2">
-                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
-                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
                                     </div>
-                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">How to build a Kaylen relationship
-                                        with a good company</h4>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="cards">
-                                    <div>
-                                        <img class="w-100" src="assets/img/news-alide-img-1.svg" alt="">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
                                     </div>
-                                    <div class="d-flex justify-content-between mt-2">
-                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
-                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
-                                    </div>
-                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
-                                        profile, and why does it matter ?</h4>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="cards">
-                                    <div>
-                                        <img class="w-100" src="assets/img/news-alide-img-2.svg" alt="">
-                                    </div>
-                                    <div class="d-flex justify-content-between mt-2">
-                                        <p class="p-text-clr f-14 fw-400">Published in Insight Jan 30, 2021</p>
-                                        <p class="p-text-clr f-14 fw-400">by : Albert Sans</p>
-                                    </div>
-                                    <h4 class="heading-text-clr f-32 fw-600 mt-4">What makes an authentic employee
-                                        profile,
-                                        and why
-                                        does it matter ?</h4>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-        </div>
-
-
-    </section>
-
-    <!-- review  -->
-    <section class="review">
-        <div class="container">
-            <div class="review-dev d-flex align-items-center justify-content-between flex-column flex-lg-row">
-                <h2 class="review-head heading-text-clr f-56 fw-600">What our customer are saying</h2>
-                <p class="review-sub p-text-clr f-18 fw-500">We are trusted numerous companies from different business
-                    to meet
-                    their needs</p>
-            </div>
-            <div class="row">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="review-slider d-flex flex-column gap-4">
-                                <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <p>5.0</p>
-                                </div>
-                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
-                                    very
-                                    satisfying. wrapped
-                                    with Hight quality and innovative
-                                    design that makes a surge of visitors on my website”</h3>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div>
-                                        <img src="assets/img/review-man.svg" alt="">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h5>Renee Wells</h5>
-                                        <p class="p-text-clr">Product Designer, Quotient</p>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
                                     </div>
                                 </div>
                             </div>
-
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="review-slider d-flex flex-column gap-4">
-                                <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <p>5.0</p>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="cards">
+                                <div class="card-top">
+                                    <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">startup</p>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$19.99/month*</h4>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$100.99/month*</h4>
+                                    <div class="card-devider"></div>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                                    <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block "
+                                        href="">Try
+                                        it for free - 14 days</a>
                                 </div>
-                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
-                                    very
-                                    satisfying. wrapped
-                                    with Hight quality and innovative
-                                    design that makes a surge of visitors on my website”</h3>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div>
-                                        <img src="assets/img/review-man.svg" alt="">
+                                <div class="d-flex flex-column gap-3 mt-5">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
                                     </div>
-                                    <div class="d-flex flex-column">
-                                        <h5>Renee Wells</h5>
-                                        <p>Product Designer, Quotient</p>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="review-slider d-flex flex-column gap-4">
-                                <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <p>5.0</p>
-                                </div>
-                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
-                                    very
-                                    satisfying. wrapped
-                                    with Hight quality and innovative
-                                    design that makes a surge of visitors on my website”</h3>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div>
-                                        <img src="assets/img/review-man.svg" alt="">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
                                     </div>
-                                    <div class="d-flex flex-column">
-                                        <h5>Renee Wells</h5>
-                                        <p>Product Designer, Quotient</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="review-slider d-flex flex-column gap-4">
-                                <div class="d-flex align-items-center gap-2">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <img src="assets/img/review-star.svg" alt="">
-                                    <p>5.0</p>
-                                </div>
-                                <h3 class="alider-head heading-text-clr f-40 fw-500">“With Agency the results are
-                                    very
-                                    satisfying. wrapped
-                                    with Hight quality and innovative
-                                    design that makes a surge of visitors on my website”</h3>
-                                <div class="d-flex align-items-center gap-2">
-                                    <div>
-                                        <img src="assets/img/review-man.svg" alt="">
-                                    </div>
-                                    <div class="d-flex flex-column">
-                                        <h5>Renee Wells</h5>
-                                        <p>Product Designer, Quotient</p>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="cards">
+                                <div class="card-top">
+                                    <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">enterprise</p>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$29.99/month*</h4>
+                                    <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$120.99/month*</h4>
+                                    <div class="card-devider"></div>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                                    <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                                    <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block "
+                                        href="">Try
+                                        it for free - 14 days</a>
+                                </div>
+                                <div class="d-flex flex-column gap-3 mt-5">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                                fill="#6347FB" />
+                                            <path
+                                                d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                                fill="#6347FB" />
+                                        </svg>
+                                        <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
-                    </div>
-                    <div class="swiper-pagination"></div>
+                    </ul>
                 </div>
+            </section>
 
 
 
 
-
-
-
-
-
-
-
-
-                <div class="col-lg-12">
-
-
-
+            <div class="all-cards d-flex gap-3 d-none d-lg-flex">
+                <div class="cards">
+                    <div class="card-top">
+                        <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">individual</p>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$4.99/month*</h4>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$10.99/month*</h4>
+                        <div class="card-devider"></div>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                        <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block " href="">Try
+                            it for free - 14 days</a>
+                    </div>
+                    <div class="d-flex flex-column gap-3 mt-5">
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">startup</p>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$19.99/month*</h4>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$100.99/month*</h4>
+                        <div class="card-devider"></div>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                        <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block " href="">Try
+                            it for free - 14 days</a>
+                    </div>
+                    <div class="d-flex flex-column gap-3 mt-5">
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-top">
+                        <p class="fs-16 fw-500 text-rich-black mb-2 text-uppercase">enterprise</p>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text1">$29.99/month*</h4>
+                        <h4 class="fs-32 fw-500 text-light-blue mb-4 text2">$120.99/month*</h4>
+                        <div class="card-devider"></div>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text1">*billed each month</h5>
+                        <h5 class="fs-16 fw-300 text-Electric-Blue mt-4 mb-3 text2">*billed each Year</h5>
+                        <a class="card-btn fs-14 fw-500 text-white bg-light-blue radius-100 d-inline-block " href="">Try
+                            it for free - 14 days</a>
+                    </div>
+                    <div class="d-flex flex-column gap-3 mt-5">
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Commodo massa</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Lorem ipsum diceam est un dolor</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Dolor sit amet cum parturient</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.39609 18.7924C6.90409 18.7924 4.51416 17.8025 2.75205 16.0404C0.989942 14.2783 0 11.8883 0 9.39634C0 6.90434 0.989942 4.51441 2.75205 2.7523C4.51416 0.990193 6.90409 0.000250954 9.39609 0.000250954C11.1565 -0.0127126 12.8841 0.476818 14.376 1.41137L13.4706 2.8635C12.2499 2.09881 10.8365 1.69819 9.39609 1.70863C7.8756 1.70863 6.38926 2.15951 5.12503 3.00424C3.86079 3.84898 2.87544 5.04964 2.29357 6.45438C1.71171 7.85913 1.55946 9.40487 1.8561 10.8961C2.15273 12.3874 2.88491 13.7572 3.96006 14.8324C5.0352 15.9075 6.40502 16.6397 7.89629 16.9363C9.38756 17.233 10.9333 17.0807 12.338 16.4989C13.7428 15.917 14.9434 14.9316 15.7882 13.6674C16.6329 12.4032 17.0838 10.9168 17.0838 9.39634C17.088 8.71813 17.0105 8.04187 16.8532 7.38216L18.5103 6.96873C18.7015 7.76367 18.7961 8.57875 18.7922 9.39634C18.7892 11.8874 17.7984 14.2757 16.0369 16.0371C14.2754 17.7986 11.8872 18.7895 9.39609 18.7924Z"
+                                    fill="#6347FB" />
+                                <path
+                                    d="M9.39607 11.9591C9.16954 11.959 8.95231 11.869 8.79216 11.7088L4.77148 7.68813L5.97931 6.48031L9.39607 9.89707L18.7922 0.500977L20 1.7088L9.99998 11.7088C9.83983 11.869 9.62259 11.959 9.39607 11.9591Z"
+                                    fill="#6347FB" />
+                            </svg>
+                            <p class="fs-16 fw-300 text-Electric-Blue">Aenean parturient </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- think  -->
-    <section class="main-think">
+    <!-- feedback  -->
+    <section class="feedback">
         <div class="container">
-            <div class="think d-flex align-items-center justify-content-between flex-column flex-lg-row">
-                <div class="think-left">
-                    <h2 class="heading-text-clr f-64 fw-600">Think beyond the wave</h2>
-                    <p class="think-sub heading-text-clr f-24 fw-600">Ask about Sans products, pricing, implementation,
-                        or anything
-                        else. Our highly trained reps are
-                        standing by, ready to help</p>
+            <div class="feedback-main">
+                <div class="feedback-head">
+                    <p class="fs-50 fw-300 text-white">We have great feedback</p>
                 </div>
-                <div class="think-btn">
-                    <a class="d-inline-block think-btn text-white f-16 fw-700" href="">Try For free</a>
-                </div>
-
             </div>
+
         </div>
     </section>
 
-    <!-- footer  -->
-    <section class="footer">
+    <section>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div>
-                        <div>
-                            <img src="assets/img/footer-logo.svg" alt="">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.svg" alt="logo" class="img-fluid">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Feedback</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center gap-3">
+                            <a href=""><img src="assets/img/fb.svg" alt=""></a>
+                            <a href=""><img src="assets/img/twitter.svg" alt=""></a>
+                            <a href=""><img src="assets/img/dribbble.svg" alt=""></a>
                         </div>
-                        <p class="footer-heading heading-text-clr f-16 fw-500">We built an elegant solution. Our team
-                            created a fully integrated
-                            sales and marketing
-                            solution for SMBs</p>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer-items d-none d-lg-block">
-                        <h4>Company</h4>
-                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
-                            <li><a href="">About</a></li>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Jobs</a></li>
-                            <li><a href="">Blog</a></li>
-                        </ul>
-                    </div>
+            </nav>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-4">
+                    <a class="d-flex gap-3 align-items-center fs-14 fw-500 text-light-blue=" href=""><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path
+                                d="M15.2891 4.01905L1.33057 0.0343887C0.532938 -0.164844 -0.164989 0.532471 0.0344189 1.3294L4.02258 15.2757C4.32169 16.1723 5.51813 16.2719 5.91695 15.3753L8.70866 8.80064L15.2891 6.01138C16.2862 5.5133 16.1865 4.3179 15.2891 4.01905Z"
+                                fill="#6347FB" />
+                        </svg>San Francisco</a>
+                    <a class="d-flex gap-3 align-items-center fs-14 fw-500 text-light-blue=" href=""><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path
+                                d="M0 2V16L5 11H14C15.105 11 16 10.105 16 9V2C16 0.895 15.105 0 14 0H2C0.895 0 0 0.895 0 2Z"
+                                fill="#6347FB" />
+                        </svg>English</a>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer-items d-none d-lg-block">
-                        <h4>Product</h4>
-                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
-                            <li><a href="">Sales Software</a></li>
-                            <li><a href="">Marketplace</a></li>
-                            <li><a href="">Terms & Conditions</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                        </ul>
-                    </div>
+                <div>
+                    <p class="footer-middle d-flex align-items-center gap-3">By using this site you agree to our Cookie
+                        Policy <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.70757 0.292433C9.52026 0.105188 9.26626 0 9.00142 0C8.73658 0 8.48257 0.105188 8.29527 0.292433L5.00624 3.58146L1.71721 0.292433C1.52884 0.110495 1.27654 0.00982222 1.01466 0.0120979C0.752781 0.0143736 0.502271 0.119416 0.317087 0.3046C0.131902 0.489785 0.0268602 0.740294 0.0245845 1.00217C0.0223088 1.26406 0.122982 1.51635 0.30492 1.70473L3.59395 4.99376L0.30492 8.28278C0.209525 8.37492 0.133435 8.48513 0.0810888 8.60699C0.028743 8.72885 0.00119014 8.85991 3.77112e-05 8.99253C-0.00111471 9.12515 0.0241565 9.25667 0.0743768 9.37941C0.124597 9.50216 0.19876 9.61368 0.29254 9.70746C0.386319 9.80124 0.497837 9.8754 0.620585 9.92562C0.743333 9.97584 0.874854 10.0011 1.00747 9.99996C1.14009 9.99881 1.27115 9.97126 1.39301 9.91891C1.51487 9.86656 1.62508 9.79047 1.71721 9.69508L5.00624 6.40605L8.29527 9.69508C8.48365 9.87702 8.73594 9.97769 8.99782 9.97541C9.25971 9.97314 9.51022 9.8681 9.6954 9.68291C9.88058 9.49773 9.98563 9.24722 9.9879 8.98534C9.99018 8.72346 9.88951 8.47116 9.70757 8.28278L6.41854 4.99376L9.70757 1.70473C9.89481 1.51743 10 1.26342 10 0.998581C10 0.733736 9.89481 0.479735 9.70757 0.292433Z"
+                                fill="#5B5D7E" />
+                        </svg>
+                    </p>
+
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer-items d-none d-lg-block">
-                        <h4>Discover</h4>
-                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
-                            <li><a href="">CRM Comparision</a></li>
-                            <li><a href="">Partner Program</a></li>
-                            <li><a href="">What is CRM</a></li>
-                            <li><a href="">Resource</a></li>
-                        </ul>
-                    </div>
+                <div>
+                    <p>©Circular Copyright 2019</p>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer-items d-none d-lg-block">
-                        <h4>Help Center</h4>
-                        <ul class="footer-links list-unstyled mt-3 d-flex flex-column gap-2">
-                            <li><a href="">Community</a></li>
-                            <li><a href="">Knowledge Base</a></li>
-                            <li><a href="">Academy</a></li>
-                            <li><a href="">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
-            <div class="footer-sm-devider d-block d-lg-none"></div>
-            <div class="d-block d-lg-none">
-                <div class="d-flex align-items-center justify-content-center gap-3">
-                    <div>
-                        <a href=""><img src="assets/img/fb.svg" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href=""><img src="assets/img/twitter.svg" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href=""><img src="assets/img/insta.svg" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href=""><img src="assets/img/linkdin.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-policy d-flex align-items-center justify-content-between mt-3">
-                    <p>Privacy Policy</p>
-                    <p>Terms & Conditions</p>
-                    <p>Support</p>
-                </div>
-                <p class="copyright">© Copyright 2023, All Rights Reserved</p>
-            </div>
-
-
-
         </div>
     </section>
+
+
+
     <!-- Main Coding End -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <!-- <script src="assets/js/splide-extension-url-hash.min.js"></script> -->
     <!-- Script JS -->
+
     <script src="assets/js/script.js"></script>
 
     <!-- <h1 class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="300ms">
